@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{4966a7b8-972c-42de-a8f9-a13c042baf53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{5f816c3a-2444-4c4e-9d2c-1bd147a4e4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Projectiles">
+      <UniqueIdentifier>{0926b969-9be4-468d-85e3-e9b9a9f61aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Enemies">
+      <UniqueIdentifier>{f62b5082-dba6-4dcd-b618-ad9c5805355d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Base Classes">
+      <UniqueIdentifier>{f3607a9c-c5d0-4267-837b-eacecb646ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{db213469-1ed6-42fc-9e07-fe57fe3c6744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Enemies">
+      <UniqueIdentifier>{9893e46b-e2d9-40a5-99fa-4d485433b374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{e8b67042-bbed-4d28-b314-ab3c8995caca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Base Classes">
+      <UniqueIdentifier>{e2cf105d-fea3-4e2a-9204-db7d205b017a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Collisions">
+      <UniqueIdentifier>{447f75f0-db87-45b5-aaf1-9a7d93cf3b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Collisions">
+      <UniqueIdentifier>{25ec7a69-d48f-411b-bb24-0e239eb71deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\UserInterface">
+      <UniqueIdentifier>{9d961bcc-d29a-47a9-a7ba-d25d74bc6d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\UserInterface\ProgressionBars">
+      <UniqueIdentifier>{266fa95d-8f9e-469c-af5c-a37cc0dc1c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\User Interface">
+      <UniqueIdentifier>{0aba5e50-bdab-4ae9-bd0b-11c000a4f938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\User Interface\ProgressionBars">
+      <UniqueIdentifier>{f1603ffc-9cd3-4dfd-ad71-bfe480cba5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Projectiles">
+      <UniqueIdentifier>{76dd81ca-01b5-4286-bc7f-1c090dcafcbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\UserInterface\Text">
+      <UniqueIdentifier>{95f362f5-53f4-4eb2-bef6-77bb1deb9f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\User Interface\Text">
+      <UniqueIdentifier>{6c5d1ec0-a8c9-4a7c-a1aa-84250e00e99c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SpriteObject.cpp">
+      <Filter>Source Files\Engine\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerProjectile.cpp">
+      <Filter>Source Files\Game\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileBase.cpp">
+      <Filter>Source Files\Game\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileManager.cpp">
+      <Filter>Source Files\Game\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Source Files\Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBase.cpp">
+      <Filter>Source Files\Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>Source Files\Engine\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Source Files\Engine\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="BiterEnemy.cpp">
+      <Filter>Source Files\Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="FighterEnemy.cpp">
+      <Filter>Source Files\Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyProjectile.cpp">
+      <Filter>Source Files\Game\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFormation.cpp">
+      <Filter>Source Files\Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressionBar.cpp">
+      <Filter>Source Files\Game\User Interface\ProgressionBars</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUpBar.cpp">
+      <Filter>Source Files\Game\User Interface\ProgressionBars</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHealthBar.cpp">
+      <Filter>Source Files\Game\User Interface\ProgressionBars</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Source Files\Game\User Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="DasherEnemy.cpp">
+      <Filter>Source Files\Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="GameText.cpp">
+      <Filter>Source Files\Game\User Interface\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="LivesText.cpp">
+      <Filter>Source Files\Game\User Interface\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleManager.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerRapidProjectile.cpp">
+      <Filter>Source Files\Game\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoresText.cpp">
+      <Filter>Source Files\Game\User Interface\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLoader.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="StarParticle.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="HighScoreScreen.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Engine\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteObject.h">
+      <Filter>Header Files\Engine\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileBase.h">
+      <Filter>Header Files\Game\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProjectile.h">
+      <Filter>Header Files\Game\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileManager.h">
+      <Filter>Header Files\Game\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Header Files\Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBase.h">
+      <Filter>Header Files\Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>Header Files\Engine\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Header Files\Engine\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="BiterEnemy.h">
+      <Filter>Header Files\Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="FighterEnemy.h">
+      <Filter>Header Files\Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyProjectile.h">
+      <Filter>Header Files\Game\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFormation.h">
+      <Filter>Header Files\Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressionBar.h">
+      <Filter>Header Files\Game\UserInterface\ProgressionBars</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUpBar.h">
+      <Filter>Header Files\Game\UserInterface\ProgressionBars</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHealthBar.h">
+      <Filter>Header Files\Game\UserInterface\ProgressionBars</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Header Files\Game\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="DasherEnemy.h">
+      <Filter>Header Files\Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="GameText.h">
+      <Filter>Header Files\Game\UserInterface\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoresText.h">
+      <Filter>Header Files\Game\UserInterface\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="LivesText.h">
+      <Filter>Header Files\Game\UserInterface\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleManager.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerRapidProjectile.h">
+      <Filter>Header Files\Game\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLoader.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="HighScoreScreen.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="StarParticle.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
